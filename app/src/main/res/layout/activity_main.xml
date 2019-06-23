@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bg"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    tools:context=".MainActivity">
+
+    <com.edu.swufe.myapplication.CircleMenuLayout
+        android:id="@+id/id_menulayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="100dp"
+        android:background="@mipmap/circle_bg3"
+        >
+
+        <RelativeLayout
+            android:id="@id/id_circle_menu_item_center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+
+            <ImageView
+                android:layout_width="100.0dip"
+                android:layout_height="100.0dip"
+                android:layout_centerInParent="true"
+                android:background="@mipmap/ic_person_black_48dp"
+                />
+
+            <ImageView
+                android:layout_width="116.0dip"
+                android:layout_height="116.0dip"
+                android:layout_centerInParent="true"
+                android:background="@mipmap/turnplate_mask_unlogin_normal"
+                />
+
+
+        </RelativeLayout>
+    </com.edu.swufe.myapplication.CircleMenuLayout>
+
+</LinearLayout>
